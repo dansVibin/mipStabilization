@@ -1,0 +1,5 @@
+<launch>
+
+   <node name="nh" pkg="spring_break" type="moveServo" output="screen"/>
+   <node name = "cam_NEW" pkg="spring_break" type="camROS.py" output="screen"/>
+</launch>

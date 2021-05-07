@@ -1,0 +1,7 @@
+<launch>
+   <node name="encoder_pub" pkg="spring_break" type="encoderPublisher"/>
+   <node name="imu_pub" pkg="spring_break" type="imuPublisher"/>
+   <node name="inner" pkg="spring_break" type="innerLoop" output="screen"/>
+   <node name="outer" pkg="spring_break" type="outerLoop"/>
+
+</launch>
